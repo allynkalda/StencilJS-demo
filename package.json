@@ -1,5 +1,5 @@
 {
-  "name": "stencil-starter-project-name",
+  "name": "my-background-video-component",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",

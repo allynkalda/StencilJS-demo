@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
   <title>Stencil Component Starter</title>
-
-  <script type="module" src="/build/stencil-starter-project-name.esm.js"></script>
-  <script nomodule src="/build/stencil-starter-project-name.js"></script>
-
+  <script type="module" src="/build/my-background-video-component.esm.js"></script>
+  <script nomodule src="/build/my-background-video-component.js"></script>
 </head>
 <body>
 
-  <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+  <my-background-video-component
+    src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+    poster="https://sample-videos.com/img/Sample-png-image-500kb.png">
+  </my-background-video-component>
 
 </body>
 </html>
